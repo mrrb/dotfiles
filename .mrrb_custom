@@ -1,0 +1,19 @@
+# Aliases
+# lsd
+alias ls='lsd'
+
+# trizen
+alias install='trizen -S '
+alias update='trizen -Syu'
+alias search='trizen -Ss '
+alias remove='trizen -R'
+
+# mlocate
+alias udb='sudo updatedb'
+
+
+# Make dir & cd into it
+function mkc()
+{
+  mkdir $1 && cd $1
+}
