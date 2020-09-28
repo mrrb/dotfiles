@@ -1,4 +1,4 @@
-# Aliases
+## Aliases
 # lsd
 alias ls='lsd'
 
@@ -8,10 +8,16 @@ alias update='trizen -Syu'
 alias search='trizen -Ss '
 alias remove='trizen -R'
 
+# pacman
+alias pinstall='pacman -S '
+alias pupdate='pacman -Syu'
+alias psearch='pacman -Ss '
+alias premove='pacman -R'
+
 # mlocate
 alias udb='sudo updatedb'
 
-
+## Other
 # Make dir & cd into it
 function mkc()
 {
