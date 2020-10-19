@@ -1,0 +1,32 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Atom One Dark",
+
+    "editor.tokenColorCustomizations": {
+        "[Atom One Dark]": {
+            // "comments": "#5c6370"
+            // "comments": "#828996"
+            "comments": "#d4922f"
+        }
+    },
+
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "toggle",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "doxdocgen.cpp.tparamTemplate": "\\tparam {param} ",
+    "doxdocgen.file.fileTemplate": "\\file {name}",
+    "doxdocgen.generic.briefTemplate": "\\brief {text}",
+    "doxdocgen.generic.dateTemplate": "\\date {date}",
+    "doxdocgen.generic.paramTemplate": "\\param {param} ",
+    "doxdocgen.generic.returnTemplate": "\\return {type} ",
+    "doxdocgen.generic.authorTag": "\\author {author} ({email})",
+    "doxdocgen.generic.authorName": "Mario Rubio",
+    "doxdocgen.generic.authorEmail": "mario@mrrb.eu",
+    "doxdocgen.file.versionTag": "\\version 0.1",
+    "C_Cpp.formatting": "Disabled",
+}
