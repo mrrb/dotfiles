@@ -23,3 +23,9 @@ function mkc()
 {
   mkdir $1 && cd $1
 }
+
+# Search the text given by the 1st param in the path given by the 2nd param (Recursive)
+function search_text()
+{
+  grep -rnw $2 -e $1
+}
