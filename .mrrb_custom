@@ -29,3 +29,6 @@ function search_text()
 {
   grep -rnw $2 -e $1
 }
+
+# Secrets
+source ~/.mrrb_secrets
