@@ -32,3 +32,7 @@ function search_text()
 
 # Secrets
 source ~/.mrrb_secrets
+
+# Others
+export PATH=/home/mra/esp8266/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
+
