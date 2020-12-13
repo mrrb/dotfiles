@@ -35,4 +35,4 @@ source ~/.mrrb_secrets
 
 # Others
 export PATH=/home/mra/esp8266/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
-
+export ESP8266_SDK_ROOT=/home/mra/esp8266/esp-open-sdk
