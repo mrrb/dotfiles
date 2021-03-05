@@ -5,7 +5,6 @@
     "editor.wordWrap": "on",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Atom One Dark",
-
     "editor.tokenColorCustomizations": {
         "[Atom One Dark]": {
             // "comments": "#5c6370"
@@ -13,7 +12,6 @@
             "comments": "#d4922f"
         }
     },
-
     "window.zoomLevel": 0,
     "window.menuBarVisibility": "toggle",
     "gitlens.currentLine.enabled": false,
@@ -29,4 +27,6 @@
     "doxdocgen.generic.authorEmail": "mario@mrrb.eu",
     "doxdocgen.file.versionTag": "\\version 0.1",
     "C_Cpp.formatting": "Disabled",
+    "python.dataScience.askForKernelRestart": false,
+    "editor.renderControlCharacters": false,
 }

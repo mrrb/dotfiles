@@ -14,8 +14,8 @@ source /usr/share/zsh/share/antigen.zsh
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=2000
-SAVEHIST=1000
+HISTSIZE=20000
+SAVEHIST=10000
 setopt autocd
 bindkey -v
 # End of lines configured by zsh-newuser-install
@@ -59,3 +59,14 @@ eval "$(pyenv init -)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Path
+if [ -d "$HOME/.bin" ] ;
+  then PATH="$HOME/.bin:$PATH"
+fi
+
+if [ -d "$HOME/.local/bin" ] ;
+  then PATH="$HOME/.local/bin:$PATH"
+fi
+
+PATH="$HOME/.local/share/gem/ruby/2.7.0/bin:$PATH"
