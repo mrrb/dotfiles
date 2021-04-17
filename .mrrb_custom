@@ -36,3 +36,11 @@ source ~/.mrrb_secrets
 # Others
 export PATH=/home/mra/esp8266/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
 export ESP8266_SDK_ROOT=/home/mra/esp8266/esp-open-sdk
+
+## Path
+# ESP
+alias get_idf='. $HOME/esp/esp-idf/export.sh'
+IDF_PATH="$HOME/esp/esp-idf/"
+
+# Ruby
+PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"

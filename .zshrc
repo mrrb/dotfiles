@@ -69,4 +69,4 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
-PATH="$HOME/.local/share/gem/ruby/2.7.0/bin:$PATH"
+source /usr/share/nvm/init-nvm.sh
