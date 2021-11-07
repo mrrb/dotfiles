@@ -17,6 +17,9 @@ alias premove='pacman -R'
 # mlocate
 alias udb='sudo updatedb'
 
+# System
+alias bye='dialog --yesno "Shutdown?" 10 100 && shutdown -h now'
+
 ## Other
 # Make dir & cd into it
 function mkc()
@@ -39,8 +42,8 @@ export ESP8266_SDK_ROOT=/home/mra/esp8266/esp-open-sdk
 
 ## Path
 # ESP
-alias get_idf='. $HOME/esp/esp-idf/export.sh'
-IDF_PATH="$HOME/esp/esp-idf/"
+alias get_idf='. $HOME/esp32/esp-idf/export.sh'
+IDF_PATH="$HOME/esp32/esp-idf/"
 
 # Ruby
-PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
+PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:/home/mra/.gem/ruby/2.7.0/bin:$PATH"
