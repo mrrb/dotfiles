@@ -21,6 +21,8 @@ alias udb='sudo updatedb'
 alias bye='dialog --yesno "Shutdown?" 10 100 && shutdown -h now'
 
 ## Other
+EDITOR=nano
+
 # Make dir & cd into it
 function mkc()
 {
@@ -31,6 +33,12 @@ function mkc()
 function search_text()
 {
   grep -rnw $2 -e $1
+}
+
+# Remount /tmp tmpfs
+function remount_tmp()
+{
+  sudo mount -o remount,size=$1,noatime /tmp
 }
 
 # Secrets

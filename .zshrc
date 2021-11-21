@@ -70,3 +70,4 @@ if [ -d "$HOME/.local/bin" ] ;
 fi
 
 source /usr/share/nvm/init-nvm.sh
+eval "$(atuin init zsh)"
