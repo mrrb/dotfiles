@@ -70,4 +70,10 @@ if [ -d "$HOME/.local/bin" ] ;
 fi
 
 source /usr/share/nvm/init-nvm.sh
+
+# Atuin
+export ATUIN_NOBIND="true"
 eval "$(atuin init zsh)"
+
+
+bindkey '^r' _atuin_search_widget
