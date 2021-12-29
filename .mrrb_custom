@@ -2,11 +2,11 @@
 # lsd
 alias ls='lsd'
 
-# trizen
-alias install='trizen -S '
-alias update='trizen -Syu'
-alias search='trizen -Ss '
-alias remove='trizen -R'
+# AUR helper
+alias install='yay -S '
+alias update='yay -Syu'
+alias search='yay -Ss '
+alias remove='yay -R'
 
 # pacman
 alias pinstall='pacman -S '
