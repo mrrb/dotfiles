@@ -40,18 +40,3 @@ function remount_tmp()
 {
   sudo mount -o remount,size=$1,noatime /tmp
 }
-
-# Secrets
-source ~/.mrrb_secrets
-
-# Others
-export PATH=/home/mra/esp8266/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
-export ESP8266_SDK_ROOT=/home/mra/esp8266/esp-open-sdk
-
-## Path
-# ESP
-alias get_idf='. $HOME/esp32/esp-idf/export.sh'
-IDF_PATH="$HOME/esp32/esp-idf/"
-
-# Ruby
-PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:/home/mra/.gem/ruby/2.7.0/bin:$PATH"

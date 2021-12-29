@@ -1,7 +1,3 @@
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
-fi
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -39,7 +35,6 @@ antigen bundle encode64
 antigen bundle last-working-dir
 antigen bundle sudo
 antigen bundle systemd
-antigen bundle vscode
 antigen bundle web-search
 antigen bundle b4b4r07/emoji-cli
 
@@ -75,5 +70,4 @@ source /usr/share/nvm/init-nvm.sh
 export ATUIN_NOBIND="true"
 eval "$(atuin init zsh)"
 
-
-bindkey '^r' _atuin_search_widget
+bindkey '^q' _atuin_search_widget
