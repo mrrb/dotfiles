@@ -1,0 +1,17 @@
+[Trigger]
+Operation=Install
+Operation=Upgrade
+Type=Package
+Target=linux
+Target=linux-lts
+Target=linux-hardened
+Target=linux-zen
+Target=linux-g14
+
+[Action]
+Description=Signing kernel with Machine Owner Key for Secure Boot
+When=PostTransaction
+Exec=/usr/bin/find /boot/ -maxdepth 1 -name 'vmlinuz-*' -exec /usr/bin/sh -c '/usr/bin/sbsign --key /etc/refind.d/keys/refind_local.key --cert /etc/refind.d/keys/refind_local.crt --output {} {}' ;
+Depends=sbsigntools
+Depends=findutils
+Depends=grep
