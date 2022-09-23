@@ -24,6 +24,9 @@ alias bye='dialog --yesno "Shutdown?" 10 100 && shutdown -h now'
 export EDITOR=kak
 export SUDO_EDITOR=kak
 
+# https://wiki.archlinux.org/title/SSH_keys#SSH_agents
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
 # Make dir & cd into it
 function mkc()
 {
