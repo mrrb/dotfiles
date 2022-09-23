@@ -1,0 +1,5 @@
+nput:b0003v0B05p19B6*
+  KEYBOARD_KEY_ff310038=search
+
+#$ sudo systemd-hwdb update
+#$ sudo udevadm trigger
