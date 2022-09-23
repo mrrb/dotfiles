@@ -21,7 +21,8 @@ alias udb='sudo updatedb'
 alias bye='dialog --yesno "Shutdown?" 10 100 && shutdown -h now'
 
 ## Other
-EDITOR=nano
+export EDITOR=kak
+export SUDO_EDITOR=kak
 
 # Make dir & cd into it
 function mkc()
