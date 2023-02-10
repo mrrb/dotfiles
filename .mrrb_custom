@@ -23,6 +23,7 @@ alias bye='dialog --yesno "Shutdown?" 10 100 && shutdown -h now'
 ## Other
 export EDITOR=kak
 export SUDO_EDITOR=kak
+export LC_ALL="en_US.UTF-8"
 
 # https://wiki.archlinux.org/title/SSH_keys#SSH_agents
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
