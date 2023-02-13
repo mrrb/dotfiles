@@ -1,0 +1,46 @@
+## Theme
+romkatv/powerlevel10k
+
+## oh-my-zsh
+ohmyzsh/ohmyzsh
+
+ohmyzsh/ohmyzsh path:plugins/sudo
+ohmyzsh/ohmyzsh path:plugins/extract
+ohmyzsh/ohmyzsh path:plugins/adb
+ohmyzsh/ohmyzsh path:plugins/archlinux
+ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+ohmyzsh/ohmyzsh path:plugins/common-aliases
+ohmyzsh/ohmyzsh path:plugins/command-not-found
+ohmyzsh/ohmyzsh path:plugins/colorize # ccat <FILE>
+ohmyzsh/ohmyzsh path:plugins/copybuffer # ctrl+o
+ohmyzsh/ohmyzsh path:plugins/copyfile
+ohmyzsh/ohmyzsh path:plugins/copypath
+ohmyzsh/ohmyzsh path:plugins/cp # cpv
+ohmyzsh/ohmyzsh path:plugins/dirhistory # alt+{up,down,left,right}
+ohmyzsh/ohmyzsh path:plugins/dirpersist
+ohmyzsh/ohmyzsh path:plugins/docker
+ohmyzsh/ohmyzsh path:plugins/last-working-dir
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/git-lfs
+ohmyzsh/ohmyzsh path:plugins/gitignore # gi
+ohmyzsh/ohmyzsh path:plugins/fzf
+ohmyzsh/ohmyzsh path:plugins/jump # {mark,unmark,marks,jump}
+ohmyzsh/ohmyzsh path:plugins/nmap
+ohmyzsh/ohmyzsh path:plugins/safe-paste
+ohmyzsh/ohmyzsh path:plugins/tmux
+ohmyzsh/ohmyzsh path:plugins/transfer
+ohmyzsh/ohmyzsh path:plugins/urltools
+
+## zsh-users
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+
+## Others
+agkozak/zsh-z
+olets/zsh-abbr
+cjayross/up
+le0me55i/zsh-systemd
+gko/ssh-connect
+Schnouki/git-annex-zsh-completion
+3v1n0/zsh-bash-completions-fallback
+b4b4r07/emoji-cli
