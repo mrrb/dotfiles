@@ -4,7 +4,7 @@ alias ls='lsd'
 
 # AUR helper
 alias install='yay -S '
-alias update='yay -Syu'
+alias update='sudo pacman -Syu && yay -Sua'
 alias search='yay -Ss '
 alias remove='yay -R'
 
