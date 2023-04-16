@@ -20,7 +20,11 @@ compinit
 # End of lines added by compinstall
 
 ## Init antidote
-source '/usr/share/zsh-antidote/antidote.zsh'
+if [ -d "/usr/share/zsh-antidote/" ]; then
+  source '/usr/share/zsh-antidote/antidote.zsh'
+else
+  source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+fi
 
 ## Init cod
 source <(cod init $$ zsh)
@@ -28,7 +32,6 @@ source <(cod init $$ zsh)
 ## mrrb custom init
 antidote load $HOME/.mrrb_antidote
 source ~/.mrrb_custom
-#eval "$(pyenv init -)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -41,11 +44,3 @@ fi
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
-
-source /usr/share/nvm/init-nvm.sh
-
-## Atuin
-export ATUIN_NOBIND="true"
-eval "$(atuin init zsh)"
-
-bindkey '^q' _atuin_search_widget

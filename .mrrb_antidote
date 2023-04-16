@@ -6,7 +6,6 @@ ohmyzsh/ohmyzsh
 
 ohmyzsh/ohmyzsh path:plugins/sudo
 ohmyzsh/ohmyzsh path:plugins/extract
-ohmyzsh/ohmyzsh path:plugins/archlinux
 ohmyzsh/ohmyzsh path:plugins/colored-man-pages
 ohmyzsh/ohmyzsh path:plugins/common-aliases
 ohmyzsh/ohmyzsh path:plugins/command-not-found
@@ -39,6 +38,4 @@ agkozak/zsh-z
 cjayross/up
 le0me55i/zsh-systemd
 gko/ssh-connect
-Schnouki/git-annex-zsh-completion
 3v1n0/zsh-bash-completions-fallback
-b4b4r07/emoji-cli

@@ -2,18 +2,6 @@
 # lsd
 alias ls='lsd'
 
-# AUR helper
-alias install='yay -S '
-alias update='sudo pacman -Syu && yay -Sua'
-alias search='yay -Ss '
-alias remove='yay -R'
-
-# pacman
-alias pinstall='pacman -S '
-alias pupdate='pacman -Syu'
-alias psearch='pacman -Ss '
-alias premove='pacman -R'
-
 # mlocate
 alias udb='sudo updatedb'
 
@@ -35,10 +23,4 @@ function mkc()
 function search_text()
 {
   grep -rnw $2 -e $1
-}
-
-# Remount /tmp tmpfs
-function remount_tmp()
-{
-  sudo mount -o remount,size=$1,noatime /tmp
 }
