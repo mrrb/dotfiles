@@ -50,6 +50,10 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
+if [ -d "$HOME/.cargo/bin" ] ;
+  then PATH="$HOME/.cargo/bin:$PATH"
+fi
+
 source /usr/share/nvm/init-nvm.sh
 
 ## Atuin
