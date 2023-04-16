@@ -26,9 +26,6 @@ else
   source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 fi
 
-## Init cod
-source <(cod init $$ zsh)
-
 ## mrrb custom init
 antidote load $HOME/.mrrb_antidote
 source ~/.mrrb_custom
