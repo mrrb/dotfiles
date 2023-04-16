@@ -6,7 +6,7 @@ ohmyzsh/ohmyzsh
 
 ohmyzsh/ohmyzsh path:plugins/sudo
 ohmyzsh/ohmyzsh path:plugins/extract
-ohmyzsh/ohmyzsh path:plugins/adb
+#ohmyzsh/ohmyzsh path:plugins/adb
 ohmyzsh/ohmyzsh path:plugins/archlinux
 ohmyzsh/ohmyzsh path:plugins/colored-man-pages
 ohmyzsh/ohmyzsh path:plugins/common-aliases
