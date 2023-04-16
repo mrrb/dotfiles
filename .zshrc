@@ -20,7 +20,11 @@ compinit
 # End of lines added by compinstall
 
 ## Init antidote
-source '/usr/share/zsh-antidote/antidote.zsh'
+if [ -d "/usr/share/zsh-antidote/" ]; then
+  source '/usr/share/zsh-antidote/antidote.zsh'
+else
+  source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+fi
 
 ## Init cod
 source <(cod init $$ zsh)
@@ -41,8 +45,6 @@ fi
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
-
-source /usr/share/nvm/init-nvm.sh
 
 ## Atuin
 export ATUIN_NOBIND="true"
