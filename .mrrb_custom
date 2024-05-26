@@ -58,8 +58,8 @@ source /opt/miniconda3/etc/profile.d/conda.sh
 
 ## Path
 # ESP
-alias get_idf='. $HOME/esp32/esp-idf/export.sh'
-IDF_PATH="$HOME/esp32/esp-idf/"
+alias get_idf='. /opt/esp-idf/export.sh'
+IDF_PATH="/opt/esp-idf/"
 
 # Ruby
 PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:/home/mra/.gem/ruby/2.7.0/bin:$PATH"
