@@ -61,3 +61,9 @@ export ATUIN_NOBIND="true"
 eval "$(atuin init zsh)"
 
 bindkey '^q' _atuin_search_widget
+
+
+## Go
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
